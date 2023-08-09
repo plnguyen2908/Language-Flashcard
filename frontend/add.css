@@ -1,0 +1,28 @@
+.container {
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#definition {
+    height: 200px;
+}
+
+input {
+    width: 100%
+}
+
+input {
+    border: 1px black solid;
+    border-radius: 5px;
+}
+
+div {
+    margin: 10px 0px;
+}
+
+.small {
+    width: 44%;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="add.css">
+</head>
+
+<body>
+    <div><a href="index.html">Back to the application</a></div>
+    <div class="container">
+        <form action="abc">
+            <div>
+                <label for="set" required>Set's name:</label>
+                <br>
+                <input type="text" id="set" required>
+            </div>
+            <div style="display: flex; justify-content: space-between;">
+                <div class="small">
+                    <label for="word">Word:</label>
+                    <br>
+                    <input type="text" id="word" required>
+                </div>
+                <div class="small">
+                    <label for="type">Word type:</label>
+                    <br>
+                    <input type="text" id="type" required>
+                </div>
+            </div>
+            <div>
+                <label for="definition">Definition:</label>
+                <br>
+                <input type="text" id="definition" required>
+            </div>
+            <div style="display: flex; justify-content: space-around;">
+                <button id="submit">Submit</button>
+                <button id="update">Update</button>
+            </div>
+        </form>
+        <div><button id="cancel">Reset</button></div>
+        <div id="announcement"></div>
+    </div>
+
+    <script src="add.js"></script>
+</body>
+
+</html>

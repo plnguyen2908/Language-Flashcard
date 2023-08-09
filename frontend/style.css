@@ -1,0 +1,35 @@
+#header {
+    text-align: center;
+}
+
+#header input {
+    width: 40em;
+}
+
+#header button {
+    border-radius: 10px;
+}
+
+.blog {
+    margin: 1em 7.5em;
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 1em 2em;
+}
+
+.smallBlog {
+    margin: 1em 1.5em;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 1em 2em;
+}
+
+.reverseContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#content {
+    padding: 0.5em 20em;
+}
